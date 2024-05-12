@@ -1,0 +1,30 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p {
+    padding: 0;
+    margin: 0;
+}
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+ul,
+ol {
+    list-style-type: none;
+}
+input:focus {
+    outline: none;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+button {
+    cursor: pointer;
+}
