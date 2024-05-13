@@ -10,10 +10,30 @@
 
 
 
-
+/* =========== NAV Section Start =========== */
 #nav .container{
     padding: 30px 0;
 }
+#nav .container .navbarCnt ul li a{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    padding-right: 30px;
+    transition: 0.4s;
+}
+#nav .container .navbarCnt ul li a:hover{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+#nav .container .navbarCnt ul li:last-child a{
+    padding-right: 0;
+}
+
+/* =========== NAV Section End =========== */
+
 /* =========== My Self Section Start =========== */
 #mySelf .container .rowSet{
     /* height: 850px; */

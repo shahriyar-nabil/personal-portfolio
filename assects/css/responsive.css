@@ -2,7 +2,6 @@
     .container{
         padding: 0;
         width: 1300px;
-        border: 2px solid black;
     }
     #aboutMe .bottomCnt .left{
         margin-right: 30px;
@@ -12,7 +11,6 @@
     .container{
         padding: 0;
         width: 1000px;
-        border: 2px solid black;
     }
     #aboutMe .container .bottomCnt{
         flex-direction: column;
@@ -29,7 +27,7 @@
 @media (min-width: 768px) and (max-width: 991px){
     .container{
         width: 800;
-        border: 2px solid black;
+        padding: 0;
     }
     #mySelf .container .rowSet{
         flex-direction: column;
@@ -59,7 +57,7 @@
 @media (min-width: 576px) and (max-width: 767px){
     .container{
         width: 700;
-        border: 2px solid black;
+        padding: 0;
     }
     #mySelf .container .rowSet{
         height: 650px;
@@ -92,8 +90,8 @@
 }
 @media (min-width: 0) and (max-width: 575px){
     .container{
-        width: 700;
-        border: 2px solid black;
+        width: 100%;
+        padding: 0;
     }
     #mySelf .container .rowSet{
         height: 650px;
