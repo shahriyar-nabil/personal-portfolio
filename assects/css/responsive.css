@@ -1,0 +1,126 @@
+@media (min-width: 1200px) {
+    .container{
+        padding: 0;
+        width: 1300px;
+        border: 2px solid black;
+    }
+    #aboutMe .bottomCnt .left{
+        margin-right: 30px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container{
+        padding: 0;
+        width: 1000px;
+        border: 2px solid black;
+    }
+    #aboutMe .container .bottomCnt{
+        flex-direction: column;
+    }
+    #aboutMe .container .bottomCnt .left{
+        margin-top: 35px;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    #aboutMe .bottomCnt .right .rightBottom p{
+        padding: 0 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 800;
+        border: 2px solid black;
+    }
+    #mySelf .container .rowSet{
+        flex-direction: column;
+        gap: 40px;
+    }
+    #aboutMe .container .bottomCnt{
+        flex-direction: column;
+    }
+    #aboutMe .container .bottomCnt .left{
+        margin-top: 35px;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    #aboutMe .bottomCnt .right .rightBottom p{
+        padding: 0 10px;
+    }
+    #aboutMe .bottomCnt .right .rightTop{
+        gap: 10px;
+    }
+    #aboutMe .bottomCnt .right .rightTop .right1st{
+        padding: 10px 80px;
+    }
+    #aboutMe .bottomCnt .right .rightTop .right2nd{
+        padding: 10px 80px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .container{
+        width: 700;
+        border: 2px solid black;
+    }
+    #mySelf .container .rowSet{
+        height: 650px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    #aboutMe .topCnt h5{
+        padding-top: 15px;
+    }
+    #aboutMe .container .bottomCnt{
+        flex-direction: column;
+    }
+    #aboutMe .container .bottomCnt .left{
+        margin-top: 25px;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    #aboutMe .bottomCnt .right .rightBottom p{
+        padding: 0 10px;
+    }
+    #aboutMe .bottomCnt .right .rightTop{
+        gap: 10px;
+    }
+    #aboutMe .bottomCnt .right .rightTop .right1st{
+        padding: 10px 50px;
+    }
+    #aboutMe .bottomCnt .right .rightTop .right2nd{
+        padding: 10px 50px;
+    }
+}
+@media (min-width: 0) and (max-width: 575px){
+    .container{
+        width: 700;
+        border: 2px solid black;
+    }
+    #mySelf .container .rowSet{
+        height: 650px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    #aboutMe .topCnt h5{
+        padding-top: 15px;
+    }
+    #aboutMe .container .bottomCnt{
+        flex-direction: column;
+    }
+    #aboutMe .container .bottomCnt .left{
+        margin-top: 25px;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    #aboutMe .bottomCnt .right .rightBottom p{
+        padding: 0 10px;
+    }
+    #aboutMe .bottomCnt .right .rightTop{
+        gap: 10px;
+    }
+    #aboutMe .bottomCnt .right .rightTop .right1st{
+        padding: 10px 50px;
+    }
+    #aboutMe .bottomCnt .right .rightTop .right2nd{
+        padding: 10px 50px;
+    }
+}
